@@ -1,0 +1,64 @@
+.content-designer {
+  background-image: linear-gradient(#fb8500, #023047, white), url(../../assets/background_designer.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-blend-mode: color;
+  background-attachment: fixed;
+}
+
+.list-designer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#designer-title {
+  text-align: center;
+  font-family: 'Permanent Marker', cursive;
+  color: #e47b03;
+  font-size: 5rem;
+}
+
+.item-list-designer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 50px;
+}
+
+#popover {
+  margin-top: 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  border-radius: 5px;
+}
+
+ul.list-designer{
+  margin:0;
+  padding:0;
+}
+
+@media(max-width: 769px) {
+  .content-designer {
+    background-size: 150%;
+    background-position: 50% 0%;
+  }
+
+  .item-list-designer img {
+    width: 500px;
+  }
+}
+
+@media(max-width: 321px) {
+  .content-designer {
+    padding-top: 50px;
+  }
+
+  #designer-title {
+    font-size: 3rem;
+   }
+
+  .item-list-designer img {
+    width: 250px;
+  }
+}

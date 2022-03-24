@@ -1,0 +1,22 @@
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30;
+    background-color: #E47B03;
+    height: 70px;
+}
+
+a{
+    padding: 10px;
+}
+
+#discord:focus, #email:focus{
+box-shadow: none;
+}
+
+@media(max-width: 321px) {
+    .icon_size{
+        width: 25px;
+    }
+}

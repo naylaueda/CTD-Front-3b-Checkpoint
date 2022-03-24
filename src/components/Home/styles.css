@@ -1,0 +1,111 @@
+main {
+  height: calc(100vh);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 90px 400px 0 400px;
+  background-image: linear-gradient(#fb8500,#023047, white),url(../../assets/background.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-blend-mode: color;
+  background-attachment: fixed;
+}
+
+.container_home{
+  text-align: center;
+  align-items: center;
+  width: 100%;
+}
+
+.itens_home{
+  padding-top: 30px;
+  height: 200px;
+}
+
+.designer_home{
+  width: 40%;
+  float: left;
+}
+
+.designer_home h2{
+  font-family: 'Permanent Marker', cursive;
+  font-size:4rem;
+  color:#e47b03;
+}
+
+.coder_home{
+  width: 40%;
+  float: right;
+}
+
+.coder_home h2{
+  font-family: 'M PLUS 1 Code', sans-serif;
+  font-size:4rem;
+  color: #219ebc;
+  font-weight: bold;
+}
+
+.text_home{
+  font-size: 1.5rem;
+}
+
+#title_home{
+  font-size: 7rem;
+  color: #023047;
+  width: 100%;
+}
+
+@media(max-width: 769px) {
+  main {
+    padding: 90px 80px 0 80px;
+    background-size: 250%;
+    background-position: 50% 0%;
+  }
+  
+  .designer_home h2{
+    font-size:4em;
+  }
+  
+  .coder_home h2{
+    font-size:4em;
+  }
+  
+  .text_home{
+    font-size: 1.2rem;
+  }
+  
+  #title_home{
+    font-size: 6rem;
+  }
+}
+
+@media(max-width: 321px) {
+  main {
+    padding: 150px 20px 0 20px;
+  }
+  
+  .designer_home{
+    width: 100%;
+  }
+  
+  .coder_home{
+    margin-top: 10px;
+    width: 100%;
+  }
+  
+  .text_home{
+    font-size: 0.8rem;
+  }
+
+  .designer_home h2{
+    font-size:2em;
+  }
+  
+  .coder_home h2{
+    font-size:2em;
+  }
+  
+  #title_home{
+    font-size: 2.5rem;
+  }
+}
